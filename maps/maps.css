@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'latop';
+    src: url('../Lato/Lato-Regular.ttf');
+}
+
+html, body{
+    font-family:'latop', serif;
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: auto !important;
+    background-color: #E8E7E7;
+}
+
+.menu-maps{
+    background-size: cover;
+    background-position: center;
+
+}
+.wid{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px 0px 20px 0px;
+}
+.wid span{
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #606060;
+}
+.wid ul{
+    text-decoration: none;
+}
+.wid li{
+    display: inline;
+}
+
+.menu-maps img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.cabang{
+    clear: both;
+    background-color: #D9D9D8;
+    margin-top: 15px;
+    height: 100%;
+    box-shadow: 0 0 2px 2px #D9D9D8;
+
+}
+.jenis-cabang{
+
+    margin:0 auto;
+
+    padding-top: 20px;
+    max-width: 700px;
+    padding: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #606060;
+}
+
+.margin-up{
+    background-color: #E8E7E7;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.margin-up h2{
+    padding: 20px 0px 20px 0px;
+}
+
+.margin-up ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    padding-top: 10px;
+}
+.margin-up li{
+    display: inline;
+    float: left;
+    padding: 15px 15px 15px 0px;
+}
+.margin-up li img {
+    width:40px;
+    height:40px;
+    border: 0.1px solid #27A8FF;
+    padding:5px;
+    border-radius: 50%;
+}
+.margin-up li img:hover{
+    background-color: white;
+}
+
+
+
+.margin-up a .text-button{
+    color:blue;
+    color: #474747;
+}
+.margin-up a{
+    text-decoration: none;
+}
+.margin-up a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+.maps-imagesz .maps-maps{
+    padding-top:12px;
+    width: 400px;
+    height: 250px;
+    border-radius:10px;
+}
+
+
+.margin-up li .button-gambar {
+    border: 2px solid blue;
+    color: whitesmoke;
+  }
+
+
+
+
+
+
+  @media only screen and (max-width: 500px) {
+    .maps-imagesz .maps-maps{
+        padding-top:12px;
+        width: 200px;
+        height: 150px;
+        border-radius:10px;
+    }
+  }
+
+@media only screen and (max-width: 450px) {
+    html, body{
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    .wid{
+        line-height:5px;
+    }
+    .menu-maps img{
+        width: 20px;
+        height: 20px;
+    }
+    .jenis-cabang iframe{
+        width: 395px;
+        height: 195px;
+    }
+    .jenis-cabang h2{
+        font-weight: bolder;
+    }
+    .small-text{
+        font: size 0.2em;
+        line-height:1.5em;
+        background-color: #E8E7E7;
+        padding: 2px;
+        border-radius:5px;
+    }
+}
