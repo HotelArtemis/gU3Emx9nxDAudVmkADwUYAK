@@ -2,6 +2,7 @@ html,body{
     height: 100%;
     margin: 0;
     width: 100%;
+    color : white;
 }
 #fullpages{
     min-width: 700px;
