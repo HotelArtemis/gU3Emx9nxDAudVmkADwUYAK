@@ -1,0 +1,183 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+#fullpages{
+    min-width: 700px;
+}
+
+h1{
+    text-align: center;
+    color:white;
+}
+
+#text-header-2 p{
+    color: white;
+    margin-top: -10px;
+}
+.logo-head{
+    padding-top: 30px;
+}
+
+.s1{
+    background-image: url("https://res.cloudinary.com/dnalx8eq3/image/upload/v1643641319/enjoeassetfiletext/imgchinesenewyear/bg-01_blubrz.svg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.s2{
+    background-image: url("https://res.cloudinary.com/dnalx8eq3/image/upload/v1642130162/enjoeassetfiletext/imgASguibGAS6/background/background-02_vvleux.svg");
+    background-size: cover;
+    background-position: center;
+}
+.s3{
+    background-image: url("https://res.cloudinary.com/dnalx8eq3/image/upload/v1642130162/enjoeassetfiletext/imgASguibGAS6/background/background-03_wvhwqc.svg");
+    background-size: cover;
+    background-position: center;
+}
+.s4{
+    background-image: url("https://res.cloudinary.com/dnalx8eq3/image/upload/v1642130162/enjoeassetfiletext/imgASguibGAS6/background/background-04_atafww.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.section {
+    font-size: 3em;
+    font-family: helvetica, arial;
+    color: #333;
+    text-align: center;
+    position: relative;
+}
+#header-type{
+    margin-top: -0px;
+    font-family: Open Sans; 
+}
+
+
+
+
+.flex-konten{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.keterangan-aside{
+    text-align: left;
+}
+.keterangan-aside h3{
+    margin-top: -40px;
+}
+.keterangan-aside ul{
+    list-style-type:none;
+    justify-content: start;
+}
+.keterangan-aside li{
+    display: inline-block;
+    margin-left: -30px;
+    padding: 15px;
+}
+.keterangan-aside li img{
+    width: 100px;
+    height: 40px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 0.5em;
+}
+
+
+
+.menu-social-media ul{
+    clear: both;
+    list-style-type: none;
+
+}   
+.menu-social-media li{
+    display: inline-block;
+    margin-left: -30px;
+    padding: 15px;
+}
+.menu-social-media img{
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+}
+
+
+
+
+
+@media only screen and (max-width: 955px) {
+    #fullpage {
+      font-size: 16px;
+    }
+  }
+
+
+  @media only screen and (max-width: 700px) {
+    #fullpage {
+      font-size: 14px;
+    }
+    .keterangan-aside h3{
+        margin-top: 20px;
+        font-size: 1.7em;
+    }
+  }
+
+
+  @media only screen and (max-width: 706px) {
+    #fullpage {
+      font-size: 14px;
+    }
+    .keterangan-aside li{
+        display: block;
+        line-height:20px;
+    }
+
+
+  }
+
+@media only screen and (max-width: 600px) {
+    #fullpage {
+      font-size: 10px;
+    }
+    .keterangan-aside h3{
+        margin-top: 20px;
+        font-size: 1.7em;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    #fullpage {
+      font-size: 10px;
+    }
+    .keterangan-aside h3{
+        margin-top: 20px;
+        font-size: 1.7em;
+    }
+
+  }
+
+  @media only screen and (max-width: 450px) {
+    #fullpage {
+      font-size: 8px;
+    }
+    .keterangan-aside h3{
+        margin-top: 17px;
+        font-size: 1.3em;
+    }
+    .flex-konten{
+        display: block;
+    }
+    .flex-konten .keterangan-aside{
+        text-align: center;
+    }
+    .flex-konten img{
+        width: 150px;
+        height: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
